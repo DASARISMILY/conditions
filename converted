@@ -1,0 +1,12 @@
+''' write a program to enter a character (a to z), if the entered character is in lower convert into upper viceversa.
+input=a
+output=A
+input=B
+output=b'''
+char=input("enter the char")
+if char>='A' and char<='z':
+    char=char.lower()
+    print("converted case of input char:",char)
+else:
+    char=char.upper()
+    print("converted case of input char:",char)
