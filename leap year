@@ -1,0 +1,6 @@
+'''check whether the given input is a leap year for 4 yrs and  centurians by if-else'''
+num=int(input("enter the number:"))
+if num%4==0:
+    print("leap year")
+else:
+    print(" not leap year")
