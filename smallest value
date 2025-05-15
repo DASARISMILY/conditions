@@ -1,0 +1,11 @@
+''' write a program to find the smallest  of two numbers by using if-else condition.
+where take a manual input from the user
+a=-4
+b=-99'''
+a=int(input("enter the num:"))
+b=int(input("enter the num:"))
+if a<b:
+    small=a
+else:
+    small=b
+print("smallest vallue is",small)
