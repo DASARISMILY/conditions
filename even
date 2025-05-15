@@ -1,0 +1,5 @@
+'''print whether the  number is even annd skip the condition is not'''
+num=int(input("enter the number:"))
+if num%2==0: #num!=0
+    print(num,"is an even num")
+print("after condition EXIT!!!")
