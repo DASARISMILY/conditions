@@ -1,0 +1,11 @@
+'''write a program to check whether the person is eligible to vote by using if condition.
+test case:
+input:23
+output:eligible'''
+person=int(input("enter the age:"))
+limit=18
+if person>=limit:
+    print("eligible")
+
+
+
