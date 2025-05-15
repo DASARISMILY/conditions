@@ -1,0 +1,8 @@
+ '''write a program to find  enter character is a vowel or a concenent, while user input could be upper or lower case using if -else-elif'''
+char=input("enter the character:")
+if char=='a' or char=='e' or char=='i' or char=='o' or char=='u':
+    print("vowels")
+elif char=='A' or char=='E' or char=='I' or char=='O' or char=='U':
+    print("vowels")
+else:
+    print("consonent")
