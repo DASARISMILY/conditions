@@ -1,0 +1,9 @@
+''' program to determine the character entered by a user,whether it is an alphabet,digit or space bby using separate if condition and predefined string functions'''
+char=input("press any key:")
+if char.isalpha():
+    print("the user has entered the character")
+if char.isdigit():
+    print("the user has entered the digit")
+if char.isspace():
+    print("the user has entered the space:")
+
