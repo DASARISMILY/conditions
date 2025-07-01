@@ -1,0 +1,10 @@
+# nested if for checking the number is both positive and even
+num=int(input("enter the num"))
+if num>0:
+    print("positive:",num)
+    if num%2==0:
+        print("even")
+    else:
+        print("odd")
+else:
+    print("negative:",num)
